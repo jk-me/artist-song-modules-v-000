@@ -6,7 +6,7 @@ class Artist
   @@artists = []
   
   extend Memorable
-  include Paramable
+  include Paramble
   
   #def self.find_by_name(name)
     #@@artists.detect{|a| a.name == name}
