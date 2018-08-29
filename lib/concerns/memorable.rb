@@ -4,6 +4,6 @@
       self.all.clear
     end
     def self.count
-      @@artists.count
+      self.all.count
     end
   end
