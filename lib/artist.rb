@@ -5,7 +5,8 @@ class Artist
   attr_reader :songs
   @@artists = []
   
-  extend Memorable, Findable
+  extend Memorable
+  extend Findable
   include Paramble
   
   #def self.find_by_name(name)
